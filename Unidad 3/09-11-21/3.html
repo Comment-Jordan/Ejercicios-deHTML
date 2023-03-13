@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>    
+    <title>Efectos/3</title>        
+    <script lenguage="javascript">
+
+        window.moveTo(0,0);
+        window.resizeTo(200,200);
+        var ancho, alto;
+        for(alto=200;alto<=screen.availHeight;alto++)
+        {
+            window.resizeTo(200,alto);
+        }
+        for(ancho=200;ancho<=screen.availWidth; ancho++)
+        {
+            window.resizeTo(ancho,alto);
+        }        
+    </script>
+    <style type="text/css">
+
+        body
+        {
+            background-image: url(imagen.jpg);
+        }
+
+        h1
+        {
+            color: #903;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1 align="center">
+        Esto es una ventana colocada y dimensionada correctamente
+    </h1>
+
+</body>
+</html>

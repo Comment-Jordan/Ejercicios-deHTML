@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>    
+    <title>Efectos/2</title>
+    
+    <script lenguage="javascript">
+
+        var parametros="width=400, height=300, left=200, top=150, resizable=no, menubar=no, toolbar=no, directories=no, location=no, scrollbar=no, status=no";
+        function abrirVentana()
+        {
+            window.open("1.html", "ventana", parametros);
+        }
+    </script>
+
+    <style type="text/css">
+        body
+        {
+            background-image: url(imagen.jpg);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Esto es una ventana completa</h1>
+    <button onclick="abrirVentana();">
+        PULSE
+    </button>
+
+</body>
+</html>

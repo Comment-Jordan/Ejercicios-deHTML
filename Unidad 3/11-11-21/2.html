@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    
+    <title>Ejercicio 2/Uso de controles</title>        
+    <script lenguage='javascript'>
+
+        function cambiar()
+        {
+            formulario.boton.value=formulario.nombre.value;
+        }
+    </script>
+</head>
+<body>
+    
+    <form name="formulario">
+        Nombre de usuario:
+        <input type="text" name="nombre" />
+        <br>
+        <input type="button" name="boton" value="Pulsar" onclick="cambiar();"/>
+    </form>
+
+</body>
+</html>

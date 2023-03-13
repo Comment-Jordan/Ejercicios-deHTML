@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>    
+    <title>Efectos/6</title>    
+    <script lenguage="javascript">
+        
+        function reducir()
+        {
+            if(tabla1.border>1)
+            {
+                tabla1.border-=1;
+            }
+        }
+
+        function aunmentar()
+        {
+            if(tabla1.border<20)
+            {
+                tabla1.border=parseInt(tabla1.border)+1;
+            }
+        }
+    </script>
+
+    <style type="text/css">
+
+        body
+        {
+            background-image: url(imagen.gpg);
+            color: #00F;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div align="center">
+        <h1>MODIFICANDO BORDES</h1>
+
+        <table width="41%" height="313" border="2" id="tabla1">
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+
+                <td>
+                    &nbsp;
+                </td>
+
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+
+                <td>
+                    &nbsp;
+                </td>
+                
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+
+                <td>
+                    &nbsp;
+                </td>
+                
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+
+
+        <form id="form1" name="form1" method="post" action="">
+
+            <table width="41%" border="0" align="center">
+                <tr>
+
+                    <td>
+                        <div align="center">
+                            <button onclick="reducir();">
+                                Reducir borde
+                            </button>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div align="center">
+                            <button onclick="aumentar();">
+                                Aumentar borde
+                            </button>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

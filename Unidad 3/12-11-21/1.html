@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>    
+    <title>Ejercicio 1/Uso de controles</title>        
+    <script lenguage="javascript">
+        function evaluacion()
+        {   
+            resultado1="ninguna";
+            resultado2="ninguna";
+
+            for(contador=0;contador<formulario.Grupo1.length;contador++)
+            {
+                if(formulario.Grupo1[contador].checked)
+                {
+                    resultado1=String.fromCharCode(contador+65);
+                }
+            }
+
+            for(contador=0;contador<formulario.Grupo2.length;contador++)
+            {
+                if(formulario.Grupo2[contador].checked)
+                {   
+                    resultado2=String.fromCharCode(contador+65);
+                }
+            }
+
+
+            formulario.res1.value="La opción activada es: "+resultado1;
+            formulario.res2.value="La opción activada es: "+resultado2;
+        }
+    </script>
+</head>
+<body>
+    <form name="formulario">
+        <table width="19%" height="203" border="0" align="center">
+            <tr>
+                <td>
+                    <strong>Grupo 1</strong>
+                </td>
+                <td>
+                    <strong>Grupo 2</strong>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="87">
+                    <p>
+                        <label>
+                            <input type="radio" name="Grupo1" value="A" />
+                            Opción A
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="radio" name="Grupo1" value="B">
+                            Opción B
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="radio" name="Grupo1" value="C">
+                            Opción C
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="radio" name="Grupo1" value="D">
+                            Opción D
+                        </label>
+                        <br>                        
+                    </p>
+                </td>
+
+                <td>
+                    <p>
+                        <label>
+                            <input type="radio" name="Grupo2" value="A" />
+                            Opción A
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="radio" name="Grupo2" value="B">
+                            Opción B
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="radio" name="Grupo2" value="C">
+                            Opción C
+                        </label>
+                        <br>
+
+                        <label>
+                            <input type="radio" name="Grupo2" value="D">
+                            Opción D
+                        </label>
+                        <br>                        
+                    </p>
+                </td>
+
+
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input  type="button" name="evaluar" value="Comprobar estado" onclick="evaluacion();"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="text" name="res1" size="40" disabled/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="text" name="res2" size="40" disabled/>
+                    </td>
+                </tr>
+
+            </tr>
+
+        </table>
+
+        <p>
+            <br>
+        </p>
+
+    </form>
+</body>
+</html>

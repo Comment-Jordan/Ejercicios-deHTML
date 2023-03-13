@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    
+    <title>Ejercicio 3/Uso de controles</title>        
+    <script lenguage="javascript">
+
+        function funcion_1()
+        {
+            var resultado="";
+            for (contador=0;contador<=2;contador++)
+            {
+                if (formulario.elements[contador].checked)
+                {
+                    resultado+="Usted es: ";
+                }
+                else
+                {
+                    resultado+="Usted no es: ";
+                }
+                resultado+=formulario.elements[contador].value+"\n";
+            }
+        
+            formulario.mostrarResultado.value=resultado;
+        }
+
+    </script>
+</head>
+<body>
+    
+
+    <form name="formulario">
+        <table width="200" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="160">Mayor de edad</td>
+                <td width="40">
+                    <input type="checkbox" name="casillaAdulto" value="adulto"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="160">Soltero: </td>
+                <td width="40">
+                    <input type="checkbox" name="casillaSoltero" value="soltero">
+                </td>
+            </tr>
+
+            <tr>
+                <td width="160">Universitario: </td>
+                <td width="40">
+                    <input type="checkbox" name="casillaUniversitario" value="universitario"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="160"></td>
+                <td width="40"></td>
+            </tr>     
+            
+            <tr align="center">
+                <td colspan="2">
+                    <input type="button" name="comprobarDatos" value="comprobar" onclick="funcion_1();"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="160"></td>
+                <td width="40"></td>
+            </tr>
+
+
+            <tr align="center" valign="top">
+                <td colspan="2" height="120">
+                    <textarea name="mostrarResultado" rows="6" cols="120" wrap="virtual"></textarea>
+                </td>
+            </tr>
+
+
+        </table>
+
+    </form>
+
+
+</body>
+</html>

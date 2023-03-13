@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    
+    
+    <script lenguage="javascript">
+
+        document.write("<h1>Texto de pruebas</h1>")
+        function cambiaColor(colorFondo, colorTexto)
+        {
+            document.bgColor=colorFondo;
+            document.fgColor=colorTexto;
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="P&aacute;gina roja con texto azul" onclick="cambiaColor('red','blue');"/>
+    <br>
+
+    <input type="button" value="P&aacute;gina verde con texto amarillo" onclick="cambiaColor('green','yellow');"/>
+    <br>
+
+    <input type="button" value="P&aacute;gina azul con texto rojo" onclick="cambiaColor('blue','red');"/>
+    <br>
+
+    <input type="button" value="P&aacute;gina amarillo con texto verde" onclick="cambiaColor('yellow','green');"/>
+    <br>
+
+    <input type="button" value="P&aacute;gina negra con texto blanco" onclick="cambiaColor('black','white');"/>
+</body>
+</html>
