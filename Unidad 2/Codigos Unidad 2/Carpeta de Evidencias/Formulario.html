@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <h1>FORMULARIO</h1>
+
+    <form action="Datos generales">
+        <fieldset>
+            <legend>Datos generales</legend>
+            <table>
+                <tr>
+                    <td>Nombre: <input type="text" name="nombre"> </td>
+                    <td>Contraseña: <input type="password" name="password"></td> 
+                </tr>
+                <tr>
+                    <td>Escriba una opinión: <textarea name="opinion" cols="30" rows="5" 
+                            wrap="virtual" tabindex="3" accesskey="o"></textarea></td>
+                </tr>
+                <tr>
+                    <td>¿Es mayor de edad? <input type="checkbox"></td>
+                    <td>Sexo:</td>
+                    <td>Ingresos: </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        Masculino <input type="radio"></td>
+                    <td>$3'500 - $5'800<input type="radio"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Femenino <input type="radio"></td>
+                    <td>$5'800 - $8'500 <input type="radio"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>$8'500 o más <input type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Envíar un archivo: <input name="filename" type="file"
+                            id="filename" maxlength="50"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Otros datos</legend>
+            <table>
+                <tr>
+                    <td>
+                        Indique su estado: 
+                        <select name="estado" size="1">
+                            <option value="1">Puebla</option>
+                            <option value="2">Oaxaca</option>
+                            <option value="3">Veracruz</option>
+                            <option value="4">Tlaxcala</option>
+                            <option value="5">CDMX</option>
+                            <option value="6">Estado de México</option>
+                            <option value="7">Querétaro</option>
+                            <option value="8">Jalisco</option>
+                            <option value="9">Monterrey</option>
+                        </select>
+                    </td>
+                    <td>
+                        Hobbies:
+                        <select name="hobbies" size="3">
+                            <option value="1">Ciclismo</option>
+                            <option value="2">Senderismo</option>
+                            <option value="3">Natación</option>
+                            <option value="4">Lectura</option>
+                            <option value="5">Videojuegos</option>
+                            <option value="6">Cine</option>
+                            <option value="7">Coleccionismo</option>
+                            <option value="8">Tiro con arco</option>
+                            <option value="9">Observación de aves</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="enviar" value="Enviar">
+                    </td>
+                    <td>
+                        <input type="reset" name="borrar" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+            <input type="hidden" name="escondido" value="oculto">
+        </fieldset>
+    </form>
+</body>
+</html>

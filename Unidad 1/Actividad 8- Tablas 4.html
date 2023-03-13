@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>        
+        #horario{
+            border-collapse: collapse;
+        }
+        #head{
+            font-family: "Times new Roman";
+            font-size: 21px;
+            
+        }
+    </style>
+</head>
+<body style="background-color: rgb(171, 216, 228);">
+    
+    <div>
+        <br>
+        <hr>
+        <h3>Alineado horizontal del contenido de las celdas</h3>
+        <table border="">            
+            <tr>
+                <th>Enero</th>
+                <th>Febrero</th>
+                <th>Marzo</th>
+            </tr>
+            <tr>
+                <td>Todas al centro</td>
+                <td>Celda 2</td>
+                <td>Otra celda <br>Celda</td>
+            </tr>
+            <tr>
+                <td align="rigth">Alineado a la derecha</td>
+                <td align="center">Alineado al centro</td>
+                <td align="left">Alineado a la izquierda</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <h3>Alineado vertical del contenido de las celdas</h3>
+        <table border="">
+            <tr>
+                <th>Enero</th>
+                <th>Febrero</th>
+                <th>Marzo</th>
+            </tr>
+            <tr valign=top>
+                <td>Todas alineadas al centro</td>
+                <td>Esta es la <br>celda 2</td>
+                <td>Celda 3</td>
+            </tr>
+            <tr>
+                <td valign="top">Alineado arriba</td>
+                <td valign="bottom">Alineado abajo</td>
+                <td>Por defecto <br>Alineado al centro</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <h3>Titulando las tablas</h3>
+        <table border="">
+            <caption align="top">Titulo de la tabla arriba</caption>
+            <tr>
+                <th>Enero</th>
+                <th>Febrero</th>
+                <th>Marzo</th>
+            </tr>
+            <tr>
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td>                
+            </tr>
+        </table>
+        
+        <br>
+        <table border="">
+            <caption align="bottom">Titulo de la tabla abajo</caption>
+            <tr>
+                <th>Enero</th>
+                <th>Febrero</th>
+                <th>Marzo</th>
+            </tr>
+            <tr>                
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td>                
+            </tr>
+        </table>
+
+        <hr>
+    </div>
+
+    
+    <div>
+        <br>
+        <hr>
+        <table border=""> 
+            <tr> <!--row 1, tbale 1-->
+            <td>1</td>
+            <td>2</td>
+            <td>3
+            <table border="">
+                <tr> <!--row 1, table 2-->
+                    <td>A</td>
+                    <td>B</td>
+                </tr>
+                <tr> <!--row 2, table 2-->
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+            </table>
+            </td>           
+        </tr>
+        <tr> <!--row 2, table 1-->
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <h3>Longitud horizontal de las tablas</h3>
+        <table border width="50%">
+            <tr>
+                <td>Width 50%</td>
+                <td>Width 50%</td>
+            </tr>
+            <tr>
+                <td>Celda 3</td>
+                <td>Celda 4</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <table border width="50%">
+            <tr>
+                <td>Celda 1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Celda 3</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <h3>El mismo efecto anterior con la tabla dimensionada al 100%</h3>
+        <table border width="100%">
+            <tr>
+                <td>Width 100%</td>
+                <td>Celda 2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Celda 4</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <center>
+            <table border width="50%">
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+            </table>
+        </center>
+        <hr>
+    </div>
+    
+    <div>
+        <br>
+        <hr>
+        <table border="" width="50%">
+            <tr>
+                <td>Item 1</td>
+                <td>Item 2</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="" width="100%">
+                        <tr>
+                            <td>Item A</td>
+                            <td>Item B</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Item 4</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <h3>Tabla que ocupa el 50% horizontal de la pantalla y el 25% vertical</h3>
+        <table border="" width="50%" height="25%">
+            <tr>
+                <td>Height=25</td>
+                <td>Item 2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <h3>Una tabla con 4 celdas. Cada una de un color</h3>
+        <table border="">
+            <tr>
+                <td bgcolor="red">Texto rojo</td>
+                <td bgcolor="green">Texto verde</td>
+            </tr>            
+            <tr>
+                <td bgcolor="blue">Texto azul</td>
+                <td bgcolor="yellow">Texto amarillo</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+
+    <div>
+        <br>
+        <hr>
+        <h3>Bordes de colores en la tabla</h3>
+        <table border="2" bordercolor="red">
+            <tr>
+                <td>Ejemplo de border</td>
+                <td>de color rojo</td>
+            </tr>
+            <tr>
+                <td>Ejemplo de bordes</td>
+                <td>de color rojo</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <table id="horario" border="1" border="" width="80%"  height="100%">
+            <tr>
+                <th id="head" bgcolor="f2f0cc"> </th>
+                <th id="head" bgcolor="f2f0cc" align="center">Lunes</th>
+                <th id="head" bgcolor="f2f0cc" align="center">Martes</th>
+                <th id="head" bgcolor="f2f0cc" align="center">Miércoles</th>
+                <th id="head" bgcolor="f2f0cc" align="center">Jueves</th>
+                <th id="head" bgcolor="f2f0cc" align="center">Viernes</th>
+                <th id="head" bgcolor="f2f0cc" align="center" width="9%">Sábado</th>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center" <span class="bold">06:00</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">07:00</td>
+                <td bgcolor="b2dddc" align="center">Telecomunicaciones</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="b2dddc" align="center">Telecomunicaciones</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="b2dddc" align="center">Telecomunicaciones</td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">08:00</td>
+                <td bgcolor="b2dddc" align="center">Telecomunicaciones</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="b2dddc" align="center">Telecomunicaciones</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="b2dddc" align="center">Telecomunicaciones</td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">09:00</td>
+                <td bgcolor="a3bfca" align="center">Redes Emergentes</td>
+                <td bgcolor="e5c9b8" align="center">Programacion Web</td>
+                <td bgcolor="a3bfca" align="center">Redes Emergentes</td>
+                <td bgcolor="e5c9b8" align="center">Programacion Web</td>
+                <td bgcolor="a3bfca" align="center">Redes Emergentes</td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">10:00</td>
+                <td bgcolor="a3bfca" align="center">Redes Emergentes</td>
+                <td bgcolor="e5c9b8" align="center">Programacion Web</td>
+                <td bgcolor="a3bfca" align="center">Redes Emergentes</td>
+                <td bgcolor="e5c9b8" align="center">Programacion Web</td>
+                <td bgcolor="a3bfca" align="center">Redes Emergentes</td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">11:00</td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">12:00</td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">13:00</td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">14:00</td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">15:00</td>
+                <td bgcolor="decec2" align="center">Base de Datos Distribuidas</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="decec2" align="center">Base de Datos Distribuidas</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="decec2" align="center">Base de Datos Distribuidas</td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr><td bgcolor="ececec" align="center">16:00</td>
+                <td bgcolor="decec2" align="center">Base de Datos Distribuidas</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="decec2" align="center">Base de Datos Distribuidas</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="decec2" align="center">Base de Datos Distribuidas</td>
+                <td bgcolor="ececec"> </td></tr>
+            <tr>
+                <td bgcolor="ececec" align="center">17:00</td>
+                <td bgcolor="e1ebe2" align="center">Arquitectura de compuradoras</td>
+                <td bgcolor="dceee0" align="center">Ingeniería de Software</td>
+                <td bgcolor="e1ebe2" align="center">Arquitectura de compuradoras</td>
+                <td bgcolor="dceee0" align="center">Ingeniería de Software</td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">18:00</td>
+                <td bgcolor="e1ebe2" align="center">Arquitectura de compuradoras</td>
+                <td bgcolor="dceee0" align="center">Ingeniería de Software</td>
+                <td bgcolor="e1ebe2" align="center">Arquitectura de compuradoras</td>
+                <td bgcolor="dceee0" align="center">Ingeniería de Software</td>
+                <td bgcolor="ececec" align="center"> </td>
+                <td bgcolor="ececec" align="center"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">19:00</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">20:00</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+            </tr>
+            <tr>
+                <td bgcolor="ececec" align="center">21:00</td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+                <td bgcolor="ececec"> </td>
+            </tr>            
+        </table>
+        <hr>
+        <br>        
+    </div>
+
+</body>
+</html>

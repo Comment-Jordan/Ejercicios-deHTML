@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<link href="../estilos.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="../inicio.html">Inicio<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable --></a></li>
+      <li><a href="../acerca.html">Acerca <!-- TemplateBeginEditable name="EditRegion2" -->EditRegion2<!-- TemplateEndEditable -->de mi</a></li>
+      <li><a href="../hobbies.tml">Hobbi<!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->es y pasatiempos</a></li>
+      <li><a href="../contacto.html">Contacto<!-- TemplateBeginEditable name="EditRegion4" -->EditRegion4<!-- TemplateEndEditable --></a></li>
+    </ul>
+    <p> </p>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <h1>Instrucciones</h1>
+    <p>Hola y sean bienvenidos a mi sitio web, lugar donde podrán encontrar información acerca de su servidor: Jordan Pérez Bravo el cual se alegra de presentarles mi trabajo final de la segunda unidad de la meteria de programación web del 5to semestre de la carrera de Ingeniería en Tecnologías de la Información y Comunicaciones.</p>
+    
+    
+    
+
+
+    <!-- end .content --></div>
+  <div class="footer">
+    <p>Este sitio web fue hecho con el software de Adobe Dreamweaver.</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

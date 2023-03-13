@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body style="background-color: bisque;">
+
+
+    <!--Parte 1-->
+    <p>
+        <hr>
+        <br>        
+
+    <table BORDER>
+        <tr>
+                <th> </th>
+                <th> TABLE </th>
+                <th> TR </th>
+                <th> TD </th>
+                <th> TH </th>
+                <th> CAPTION </th>
+            </tr>
+            <tr>
+                <th> BORDER </th>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center">  - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> ROWSPAN </th>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> x </td>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> COLSPAN </th>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> x </td>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> ALIGN </th>
+                <td align="center"> - </td>
+                <td align="center"> x </td>
+                <td align="center"> x </td>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> VALIGN </th>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> WIDHT </th>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> HEIGHT </th>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> CELLPADDING </th>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+            </tr>
+            <tr>
+                <th> CELLSPACING </th>
+                <td align="center"> x </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+            </tr>
+        </table>
+        <hr>
+    </p>
+
+
+    <!--Parte 2-->
+    <P>
+        <br>
+        <hr>
+        <h3>Ejemplo con todos los elementos y párametros</h3>
+        <table border>
+            <tr>
+                <td>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Media</th>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                </td>
+            </tr>
+            
+            <tr>
+                <th rowspan="2">Sexo</th>
+                <th>Hombres</th>    
+                <td>1.9</td> 
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <th>Mujeres</th>
+                <td>1.7</td> 
+                <td>60</td>
+            </tr>
+        </table>
+        <hr>
+    </p>
+
+    <!--Parte 3-->
+    <p>
+        <br>
+        <hr>
+        <h3>Otro ejemplo de línea y columna expandida</h3>
+        <table border>
+            <tr>
+                <td align="center" rowspan="2" colspan="2">A</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td align="center" rowspan="2" colspan="2">C</td>
+                <td align="center" rowspan="2" colspan="2">D</td>
+            </tr>            
+        </table>
+        <hr>
+    </p>
+
+    <!--Parte 4-->
+    <p>
+        <br>
+        <hr>
+        <h3>Tabla sin bordes</h3>
+        <table>
+            <tr>
+                <td>Item 1</td> <td rowspan="2">Item 2</td> <td>Item 3</td>
+            </tr>
+            <tr>
+                <td>Item 4</td> <td>Item 5</td>
+            </tr>
+        </table>
+        <hr>
+    </p>
+
+    <!--Parte 5-->
+    <p>
+        <br>
+        <hr>
+        <h3>Tabla con Border 10</h3>
+        <table border="10">
+            <tr>
+                <td>Item 1</td>
+                <td>Item 2</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td>Item 4</td>
+            </tr>
+        </table>
+        <hr>
+    </p>
+
+    <!--Parte 6-->
+    <p>
+        <br>
+        <hr>
+        <h3>Dimensionado de celdas</h3>
+        <table border cellpadding="10" cellspacing="0"> 
+            <tr>
+                <td>A</td> <td>B</td>                
+            </tr>
+            <tr>
+                <td>C</td> <td>D</td>
+            </tr>
+        </table>
+
+        <br>
+        <table border cellpadding="0" cellspacing="10">
+            <tr>
+                <td>A</td> <td>B</td> <td>C</td> 
+            </tr>
+            <tr>
+                <td>D</td> <td>E</td> <td>F</td>
+            </tr>
+        </table>                
+
+        <br>
+        <table border cellpadding="10" cellspacing="10">
+            <tr>
+                <td>A</td> <td>B</td> <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td> <td>E</td> <td>F</td>
+            </tr>
+        </table>
+
+        <br>
+        <table border="5" cellpadding="10" cellspacing="10">
+            <tr>
+                <td>A</td> <td>B</td> <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td> <td>E</td> <td>F</td>
+            </tr>
+        </table>
+    </p>
+
+</body>
+</html>
